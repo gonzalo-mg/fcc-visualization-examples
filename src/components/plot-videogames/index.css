@@ -1,0 +1,29 @@
+/* container */
+.PlotMosaicVideoGames {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotMosaicVideoGames__svg {
+overflow: visible;
+/* allows axis ticks a bit large to be completly visble */
+}
+
+/* title */
+.PlotMosaicVideoGames h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotMosaicVideoGames h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotMosaicVideoGames figcaption {
+  margin-top: 25px;
+}

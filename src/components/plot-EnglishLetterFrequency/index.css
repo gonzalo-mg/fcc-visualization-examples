@@ -1,0 +1,29 @@
+/* container */
+.PlotEnglishLetterFrequency {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotEnglishLetterFrequency__svg {
+  overflow: visible;
+  /* allows axis ticks a bit large to be completly visble */
+  }
+
+/* title */
+.PlotEnglishLetterFrequency h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotEnglishLetterFrequency h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotEnglishLetterFrequency figcaption {
+  margin-top:15px;
+}

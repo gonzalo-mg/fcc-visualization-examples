@@ -1,0 +1,29 @@
+/* container */
+.PlotDopingCycling {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotDopingCycling__svg {
+overflow: visible;
+/* allows axis ticks a bit large to be completly visble */
+}
+
+/* title */
+.PlotDopingCycling h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotDopingCycling h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotDopingCycling figcaption {
+  margin-top: 15px;
+}

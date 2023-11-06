@@ -1,0 +1,69 @@
+/* follow BEM naming*/
+
+.D3LandTempp {
+  margin: 0px;
+}
+
+.D3LandTempp__svg {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.D3LandTempp__title {
+  text-anchor: middle;
+  
+  font-size: larger;
+  font-weight: bold;
+}
+
+.D3LandTempp__title--sub {
+  font-size: small;
+  font-weight: normal;
+}
+
+.D3LandTempp__axisLabel {
+  text-anchor: middle;
+
+  font-size: small;
+  
+  fill: black;
+}
+
+/* .D3LandTempp__datum {
+  opacity: 0.5;
+  stroke: black;
+} */
+
+.D3LandTempp__datum:hover {
+  stroke: black;
+  stroke-width: 0.25;
+}
+
+
+.D3LandTempp__tooltip {
+  position: fixed;
+
+  width: fit-content;
+  height: 75px;
+  padding: 5px;
+
+  text-align: start;
+  font-size: medium;
+
+  background: antiquewhite;
+
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.D3LandTempp__legend {
+  fill: black;
+
+  font-size: x-small;
+}
+
+.D3LandTempp__footer {
+  font-size: small;
+
+  text-align: start;
+}

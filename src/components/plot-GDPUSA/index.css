@@ -1,0 +1,29 @@
+/* container */
+.PlotUSAgdp {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotUSAgdp__svg {
+overflow: visible;
+/* allows axis ticks a bit large to be completly visble */
+}
+
+/* title */
+.PlotUSAgdp h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotUSAgdp h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotUSAgdp figcaption {
+  margin-top: 25px;
+}

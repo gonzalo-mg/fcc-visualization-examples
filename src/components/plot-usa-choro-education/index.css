@@ -1,0 +1,29 @@
+/* container */
+.PlotUSAChoroEducation {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotUSAChoroEducation__svg {
+overflow: visible;
+/* allows axis ticks a bit large to be completly visble */
+}
+
+/* title */
+.PlotUSAChoroEducation h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotUSAChoroEducation h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotUSAChoroEducation figcaption {
+  margin-top: 25px;
+}

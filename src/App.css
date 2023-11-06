@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  
+  vertical-align: baseline;
+
+  list-style: none;
+}
+
+#root{
+  min-height: 100vh;
+  min-width: 100vw;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  justify-items: center;
+
+  background-color: whitesmoke;
+  color: black;
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+} */

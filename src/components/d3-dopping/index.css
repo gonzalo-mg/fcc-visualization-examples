@@ -1,0 +1,71 @@
+/* follow BEM naming*/
+
+.D3DopingCycling {
+  margin: 0px;
+}
+
+.D3DopingCycling__svg {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.D3DopingCycling__title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.D3DopingCycling__subtitle {
+  font-size: small;
+}
+
+.D3DopingCycling__axisLabel {
+  font-size: small;
+  text-anchor: middle;
+  fill: black;
+}
+
+.D3DopingCycling__datum {
+  opacity: 0.5;
+  stroke: black;
+}
+
+.D3DopingCycling__datum:hover {
+  stroke: yellowgreen;
+  stroke-width: 2;
+}
+
+.D3DopingCycling__datum--noDoping {
+  fill: blue;
+}
+
+.D3DopingCycling__datum--doping {
+  fill: orange;
+}
+
+.D3DopingCycling__tooltip {
+  position: fixed;
+
+  width: fit-content;
+  height: 75px;
+  padding: 5px;
+
+  text-align: start;
+  font-size: medium;
+
+  background: antiquewhite;
+
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.D3DopingCycling__legend {
+  fill: grey;
+
+  font-size: x-small;
+}
+
+.D3DopingCycling__footer {
+  font-size: small;
+
+  text-align: start;
+}

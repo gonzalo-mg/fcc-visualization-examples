@@ -1,0 +1,29 @@
+/* container */
+.PlotMosaicKickstarter {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotMosaicKickstarter__svg {
+overflow: visible;
+/* allows axis ticks a bit large to be completly visble */
+}
+
+/* title */
+.PlotMosaicKickstarter h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotMosaicKickstarter h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotMosaicKickstarter figcaption {
+  margin-top: 25px;
+}

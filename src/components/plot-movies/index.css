@@ -1,0 +1,29 @@
+/* container */
+.PlotMosaicMovies {
+  border: 1px solid black;
+
+  background-color: white;
+
+  padding: 15px 50px 5px;
+}
+
+.PlotMosaicMovies__svg {
+overflow: visible;
+/* allows axis ticks a bit large to be completly visble */
+}
+
+/* title */
+.PlotMosaicMovies h2 {
+  text-align: center;
+}
+/* subtitle */
+.PlotMosaicMovies h3 {
+  text-align: center;
+
+  font-size: smaller;
+  font-weight: normal;
+}
+
+.PlotMosaicMovies figcaption {
+  margin-top: 25px;
+}
